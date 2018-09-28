@@ -422,7 +422,7 @@ getMax() {
 }
 _getMax(node) {
   if (!node.right) return node
-  return this._getMin(node.right)
+  return this._getMax(node.right)
 }
 ```
 
